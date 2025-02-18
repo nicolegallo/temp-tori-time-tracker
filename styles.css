@@ -7,3 +7,114 @@ iframe {
     height: 750px;
     border-style: none;
 }
+
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header {
+    font-size: 90px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#total-time {
+    margin: 0;
+    font-size: 150px;
+    text-align: center;
+}
+
+#total-time p {
+    margin: 0;
+}
+
+
+
+button {
+    width: 130px;
+    padding: 0 10px 0 10px;
+}
+
+img {
+    width: 15%;
+}
+
+
+#blurb-input {
+    width: 200px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+#my-tori-time:hover {
+    color:#880000;
+}
+
+
+#time-elapsed {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+#time-elapsed:hover {
+color: black;
+}
+
+#sfcxkfzepzmg5y4gx96xdwpn1mclnhb88jy {
+    
+position: fixed;
+bottom: 0;
+width: 50%;
+    
+}
+
+
+#calculator-container button {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculate-tori-time:hover {
+    color:#880000;
+}
+
+
+/* Container for both divs */
+.container {
+    display: flex; /* Use flexbox for side-by-side layout */
+    justify-content: space-between; /* Ensure even spacing */
+    gap: 20px; /* Optional: adds space between the two divs */
+    margin-top: 30px;
+}
+
+/* Both left and right containers */
+.left-container, .right-container {
+    flex: 1; /* Ensures both divs take up equal width */
+    border: 1px solid #ccc; /* Optional: adds a border for visualization */
+    padding: 0 auto 0 auto; /* Adds spacing inside the divs */
+    box-sizing: border-box; /* Includes padding and border in the width */
+}
+
+#calculator-container {
+    padding: 0 20px 20px 20px;
+}
